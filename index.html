@@ -2,85 +2,63 @@
 
 <html lang="en">
 <head>
-<title>Raivo Kruka portfelis</title>
+<title>Raivo Kruka Portfelis</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-body {font-family: "Lato", sans-serif}
-.mySlides {display: none}
-</style>
 </head>
 <body>
 
-
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">SĀKUMS</a>
+      <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">ATTĒLU APSTRĀDE <i class="fa fa-caret-down"></i></button>
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#rastr" class="w3-bar-item w3-button">RASTRGRAFIKA</a>
+        <a href="#vektor" class="w3-bar-item w3-button">VEKTORGRAFIKA</a>
+      </div>
+    </div>
+    <a href="#3d" class="w3-bar-item w3-button w3-padding-large w3-hide-small">3D MODELĒŠANA</a>
+    <a href="#video" class="w3-bar-item w3-button w3-padding-large w3-hide-small">VIDEO</a>
+    <a href="#tekst" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TEKSTA APSTRĀDE</a>
+    <a href="#excel" class="w3-bar-item w3-button w3-padding-large w3-hide-small">IZKLĀJLAPAS</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <a href="otrais.html">link text</a>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
 <!-- Page content -->
 <div class="w3-content" style="max-width:2000px;margin-top:46px">
-  <!-- The Band Section -->
   <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
-    <h1 class="w3-wide">RAIVO KRUKA INFORMĀTIKAS PORTFELIS</h1> 
-    <h2 class="w3-wide">Mācību gadu sākām ar rastrgrafiku, kas man bija visai izaicinoša, kulminējot at mušas GIF animāciju.</h2>
-    <img class="w3-center" src="images/MJS.gif" alt=""/>
-    <h2 class="w3-wide">Tad turpinājām ar vekorgrafiku, kur, pateicoties manai ieprēkšējai Inkscape pieredzei, 3D puzles istrādei tika izvēlēts mans logotipa dizains. </h2>
+    <h1 class="w3-wide">RAIVO KRUKA INFORMĀTIKAS PORTFELIS</h1>
+    <h2 class="w3-wide" id="rastr">RASTRGRAFIKA</h2>
+    <h3 class="w3-wide">Mācību gadu sākām ar rastrgrafiku, kas man bija visai izaicinoša, kulminējot at mušas GIF animāciju.</h3>
+    <img class="w3-center" src="images/MJS.gif" width="300" height="300" alt=""/>
+    <h2 class="w3-wide" id="vektor">VEKTORGRAFIKA</h2>
+    <h3 class="w3-wide">Tad turpinājām ar vekorgrafiku, kur, pateicoties manai ieprēkšējai Inkscape pieredzei, 3D puzles istrādei tika izvēlēts mans logotipa dizains. </h3>
     <img src="images/epower_kruks.png" alt=""/>
-    <h2 class="w3-wide">Tālāk mēs sadarbojāmies ar citiem grupasbiedriem, lai izveidotu trīsdimensionālu puzli.</h2>
+    <h2 class="w3-wide" id="3d">3D MODELĒŠANA</h2>
+    <h3 class="w3-wide">Tālāk mēs sadarbojāmies ar citiem grupasbiedriem, lai izveidotu trīsdimensionālu puzli.</h3>
     <img src="images/3d.PNG" alt=""/>
-    <h2 class="w3-wide">Turpinājām ar augstas kvalitātes video izveidim kas ļāva mums izpausties vizuāli.</h2>
-    <p><video width="320" height="240" controls>
-        <source src="https://eduriga-my.sharepoint.com/:v:/g/personal/rkruks_edu_riga_lv/EVmaCu3x-8dHmWW2Hi4GxLcBKzQpVNb_nWM7hld84i_zYQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=aHFc1h" type="video/mp4">
-        Your browser does not support the <code>video</code> tag.
-    </video></p>
-    <h2 class="w3-wide">Savus informātikas piedzīvojumus turpinājām ar Word, kur mēs iemācījāmies būtiskas prasmes.</h2>
+    <h2 class="w3-wide" id="video">VIDEO</h2>
+    <h3 class="w3-wide">Turpinājām ar augstas kvalitātes video izveidi, kas ļāva mums izpausties vizuāli.</h3>
+    <iframe src="https://eduriga-my.sharepoint.com/personal/rkruks_edu_riga_lv/_layouts/15/embed.aspx?UniqueId=ed0a9a59-fbf1-47c7-9965-b61e2e06c4b7&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="vid.mp4"></iframe>
+    <h2 class="w3-wide" id="tekst">TEKSTA APSTRĀDE</h2>
+    <h3 class="w3-wide">Savus informātikas piedzīvojumus turpinājām ar Word, kur mēs iemācījāmies būtiskas prasmes.</h3>
     <img src="images/formula.PNG" alt=""/>
     <img src="images/teikumi.PNG" alt=""/>
-    <h2 class="w3-wide">Pēc tam mūsu ceļi veda uz vietu, ko var saukt par Šūnu Karalisti - Excel.</h2>
+    <h2 class="w3-wide" id="excel">IZKLĀJLAPAS</h2>
+    <h3 class="w3-wide">Pēc tam mūsu ceļi veda uz vietu, ko var saukt par Šūnu Karalisti - Excel.</h3>
     <img src="images/excel1.PNG" alt=""/>
     <img src="images/excel2.png" alt="" style="width:380px;height:240px;"/>
 
       </div>
     </div>
 <!-- End Page Content -->
-</div>
-
-
-
-<script>
-// Automatic Slideshow - change image every 4 seconds
-var myIndex = 0;
-carousel();
-
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  myIndex++;
-  if (myIndex > x.length) {myIndex = 1}    
-  x[myIndex-1].style.display = "block";  
-  setTimeout(carousel, 4000);    
-}
-
-// Used to toggle the menu on small screens when clicking on the menu button
-function myFunction() {
-  var x = document.getElementById("navDemo");
-  if (x.className.indexOf("w3-show") == -1) {
-    x.className += " w3-show";
-  } else { 
-    x.className = x.className.replace(" w3-show", "");
-  }
-}
-
-// When the user clicks anywhere outside of the modal, close it
-var modal = document.getElementById('ticketModal');
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
-</script>
-
 </body>
 </html>
