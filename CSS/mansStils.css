@@ -1,0 +1,13 @@
+body {
+    background-image: url(../images/new_york_skyline_usa.jpg);
+    background-size: cover;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+}
+
+h1 {
+    color: blue
+}
+
+
+
